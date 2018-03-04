@@ -56,7 +56,6 @@ function log() {
 						s = work.name;
 						if(name4 == s){
                     window.location.replace("store.html");
-							
 						}
 						else{
 							$(".alerts").text('Incorrect Password');
