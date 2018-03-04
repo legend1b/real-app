@@ -21,7 +21,7 @@ function onDeviceReady() {
 					}
 					else{
                        
-	var p = "<input placeholder='Enter New Password' style='border:0px;margin-top: 45%;width:280px;height: 60px;background:rgba(225,225,225,0.2);padding-left:10px;color:#FFFFFF;font-size: 20px;' type='password' id = 'inp2'><br /><input placeholder='Confirm Password' style='border:0px;margin-top:25px;width:280px;height: 60px;background:rgba(225,225,225,0.2);padding-left:10px;color:#FFFFFF;font-size: 20px;' type='text' id = 'inp3'><br /><br /><input id='save' value='Set New Password' type='button' onclick='add()'>";
+	var p = "<input placeholder='Enter New Password' style='border:0px;margin-top: 45%;width:280px;height: 60px;background:rgba(225,225,225,0.2);padding-left:10px;color:#FFFFFF;font-size: 20px;' type='password' id = 'inp2'><br /><input placeholder='Confirm Password' style='border:0px;margin-top:25px;width:280px;height: 60px;background:rgba(225,225,225,0.2);padding-left:10px;color:#FFFFFF;font-size: 20px;' type='password' id = 'inp3'><br /><br /><input id='save' value='Set New Password' type='button' onclick='add()'>";
 					}
 				document.getElementById('result').innerHTML = p;
 			});
